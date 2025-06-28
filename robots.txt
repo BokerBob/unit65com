@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://unit65.com/sitemap.xml

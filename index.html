@@ -11,6 +11,12 @@
         'domains': ['unit65.com']
       }
     });
+
+    fetch('https://api.ipify.org?format=json')
+    .then(res => res.json())
+    .then(data => {
+      fetch('https://script.google.com/macros/s/AKfycbzlUQmu54tkhyclrxvLx78qFfxZYvdecAIPHE5cruiN2cTJEou8Mj7yMLBhoAVm6ciw1Q/exec?ip=' + data.ip);
+    });
   </script>
   <meta charset="UTF-8">
   <title>Unit65.com – Premium Tech Brand Domain</title>
